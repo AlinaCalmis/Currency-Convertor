@@ -1,0 +1,4 @@
+#Mon May 17 16:28:53 EEST 2021
+base.0=D\:\\flutterProjects\\Google Atelierul Digital\\currency_convertor\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

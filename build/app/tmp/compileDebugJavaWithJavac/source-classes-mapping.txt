@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/currency_convertor/BuildConfig.java
+ com.example.currency_convertor.BuildConfig

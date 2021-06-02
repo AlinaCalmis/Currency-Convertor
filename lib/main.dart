@@ -35,9 +35,7 @@ class _CurrencyConverterState extends State<CurrencyConverter> {
             TextField(
               controller: _controller,
               decoration: InputDecoration(
-                  hintText: 'Enter the amount in EUR',
-                  errorText:
-                      (_isNumber == true) ? null : 'Please enter a number'),
+                  hintText: 'Enter the amount in EUR', errorText: (_isNumber == true) ? null : 'Please enter a number'),
               keyboardType: TextInputType.number,
               onChanged: (String val) {
                 setState(() {
@@ -54,8 +52,7 @@ class _CurrencyConverterState extends State<CurrencyConverter> {
                 'CONVERT!',
                 style: TextStyle(fontSize: 16.0, color: Colors.black),
               ),
-              style: TextButton.styleFrom(
-                  backgroundColor: Colors.black12, minimumSize: const Size(100, 40)),
+              style: TextButton.styleFrom(backgroundColor: Colors.black12, minimumSize: const Size(100, 40)),
               onPressed: () {
                 setState(() {
                   _value = _value * 4.50;
